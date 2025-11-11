@@ -46,8 +46,9 @@ Este guia assume que você tem os pré-requisitos instalados e rodando na sua m�
 ### 1. Clonar o Repositório
 
 ```bash
-git clone [https://github.com/Nicolas-2701/HypeSoftDesafioCRUD.git](https://github.com/Nicolas-2701/HypeSoftDesafioCRUD.git)
+git clone https://github.com/Nicolas-2701/HypeSoftDesafioCRUD.git
 cd HypeSoftDesafioCRUD
+```
 ---
 
 ## Agradecimentos (Acknowledgements)
