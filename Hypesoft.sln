@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypesoft.API", "Hypesoft.API\Hypesoft.API.csproj", "{48A5A135-AEB2-4458-9F3B-0CC66EE6CC9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F024C2AE-68E5-4261-8269-A72B26EF4AE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3C26BD8E-0961-4B6E-B9B8-1CDC5DD52291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ED8979D5-2967-40F9-83CB-B60E38CE18E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{E00ECEDF-4053-4DBA-910D-5D2474C9A21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypesoft.Application", "Hypesoft.Application\Hypesoft.Application.csproj", "{D77F8C50-8E51-47D2-A574-34B6B7F98CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypesoft.Domain", "Hypesoft.Domain\Hypesoft.Domain.csproj", "{D60EF78E-EAF5-47EF-B06B-02FD63DEAA26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypesoft.Persistence", "Hypesoft.Persistence\Hypesoft.Persistence.csproj", "{47AA7059-4548-4EF4-8A75-23CAA7B31C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A5A135-AEB2-4458-9F3B-0CC66EE6CC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A5A135-AEB2-4458-9F3B-0CC66EE6CC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A5A135-AEB2-4458-9F3B-0CC66EE6CC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A5A135-AEB2-4458-9F3B-0CC66EE6CC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77F8C50-8E51-47D2-A574-34B6B7F98CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77F8C50-8E51-47D2-A574-34B6B7F98CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77F8C50-8E51-47D2-A574-34B6B7F98CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77F8C50-8E51-47D2-A574-34B6B7F98CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60EF78E-EAF5-47EF-B06B-02FD63DEAA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60EF78E-EAF5-47EF-B06B-02FD63DEAA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60EF78E-EAF5-47EF-B06B-02FD63DEAA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60EF78E-EAF5-47EF-B06B-02FD63DEAA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AA7059-4548-4EF4-8A75-23CAA7B31C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AA7059-4548-4EF4-8A75-23CAA7B31C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AA7059-4548-4EF4-8A75-23CAA7B31C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AA7059-4548-4EF4-8A75-23CAA7B31C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48A5A135-AEB2-4458-9F3B-0CC66EE6CC9A} = {F024C2AE-68E5-4261-8269-A72B26EF4AE2}
+		{D77F8C50-8E51-47D2-A574-34B6B7F98CEE} = {3C26BD8E-0961-4B6E-B9B8-1CDC5DD52291}
+		{D60EF78E-EAF5-47EF-B06B-02FD63DEAA26} = {3C26BD8E-0961-4B6E-B9B8-1CDC5DD52291}
+		{47AA7059-4548-4EF4-8A75-23CAA7B31C99} = {ED8979D5-2967-40F9-83CB-B60E38CE18E3}
+	EndGlobalSection
+EndGlobal
